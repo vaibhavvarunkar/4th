@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: Helvetica, sans-serif; */
+}
+.box-img{
+    background: transparent linear-gradient(180deg, #FEF7F3 0%, #F5C4AC 100%) 0% 0% no-repeat;
+    /* background-position: center; */
+    height: 45vh;
+    margin-bottom: 2rem;
+}
+
+.other-imgs{
+    background: #F5C4AC;
+}
+
+.img-box{
+    border: 4px solid white;
+    background: #F5C4AC;
+    height: 80px;
+    width: 24%;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+.box-img-title p{
+    color: grey;
+}
+
+/* ############################### Quantity button #################################### */
+
+.quantity {
+    margin: 1rem 0;
+}
+   
+   .quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #F5C4AC;
+   }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: transparent;
+    border: 1px solid #F5C4AC;
+    cursor:pointer;}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0;
+    color: #F5C4AC; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0;
+    color: #F5C4AC;
+}
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; 
+}
+
+
+/* ################################################## Select size button ####################################### */
+/* Choose all input elements that have the attribute: type="radio" and make them disappear.*/
+.radio-btn{
+    margin-top: 1rem;
+}
+input[type="radio"] {
+    display:none;
+  }
+  
+  /* The label is what's left to style. 
+  As long as its 'for' attribute matches the input's 'id', it will maintain the function of a radio button. */
+  label {
+    padding: 0.7em;
+    display: inline-block;
+    border: 2px solid #F5C4AC;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .blank-label {
+    display: none;
+  }
+  
+  /* The '+' is the adjacent sibling selector.
+  It selects what ever element comes right after it,
+  as long as it is a sibling. */
+  input[type="radio"]:checked + label {
+    background: orange;
+    color: #fff;
+  }
+
+  .para{
+      color: gray;
+      margin-top: 0.5rem;
+      font-weight: 500;
+  }
+
+  /* ############################ price ################################################ */
+  .price{
+    margin: 1rem 0;
+  }
+
+  .price p{
+      display: inline-block;
+      margin: 0 0.5rem;
+  }
+
+  .price .main-price{
+      color: rgb(41, 238, 41);
+      font-size: 2rem;
+      font-weight: bold;
+  }
+
+  .price .original-price{
+      color: grey;
+      text-decoration: line-through;
+  }
+  
+  .price .discount{
+      color: white;
+  }
+
+  .price .discount{
+      border: 1px solid white;
+      font-size: 1.2rem;
+      background: rgb(252, 157, 172);
+      padding: 0.5rem;
+  }
+
+  .details{
+      margin-top: 4rem;
+  }
+   
+  .details-heading{
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #F5C4AC;
+  }
+
+  /* ##################################### ingredients and Used for styling ############################# */
+
+  .details .ingredients{
+      margin-top: 4rem;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: gray;
+      line-height: 2px;
+      font-weight: 500;
+  }
+
+  /* ################################################## rating and review ############################################### */
+
+  .rating-heading{
+      margin: 2rem 0;
+      border-bottom: 3px solid #F5C4AC;
+  }
+
+  .review-heading{
+      display: inline-block;
+      color: #fc9967;
+      margin-top: 1rem;
+      font-weight: 500;
+      padding-bottom: 0.5rem;
+      text-decoration: 1px solid underline;
+      border-width: 1px;
+      border-width: 25%;
+      text-underline-position: under;
+  }
+
+  .review-dropdown{
+      display: inline-block;
+      position: absolute;
+      margin-top: 0;
+      right: 2rem;
+      font-size: 12px;
+      line-height: 2px;
+      padding: 0.5rem 3rem;
+      border: 2px solid #fac9ad;
+      background: #f5e6de;
+  }
+
+  .customer-review{
+      margin-top: 1rem;
+      overflow: auto;
+      max-height: 75vh;
+  }
+  .customer-img img{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+  }
+
+  .customer-img, .customer-name, .customer-star-rating{
+      display: inline-block;
+  }
+
+  .customer-name{
+      font-weight: 500;
+      margin-left: 0.5rem;
+      margin-top: 2rem;
+      position: relative;
+      bottom: 0.7rem;
+  }
+
+  .date{
+    font-size: 12px;
+    color: gray;
+    display: inline-block;
+    position: relative;
+    right: 9.5rem;
+    top: 1.5rem;
+  }
+
+  .review-text{
+      font-size: 13px;
+      margin-bottom: 1.5rem;
+  }
+
+  .customer-star-rating{
+      position: relative;
+      bottom: 5rem;
+      left: 31rem;
+  }
+
+  .customer-review::-webkit-scrollbar{
+      width: 5px;
+  }
+
+  .customer-review::-webkit-scrollbar-thumb{
+      background: #fc9967;
+  }
+
+  /* ############################## media query for star rating #################################### */
+  @media (min-width: 992px) and (max-width: 1200px){
+      .customer-star-rating{
+          left: 25rem;
+      }
+  }
+
+  @media (min-width: 761px) and (max-width: 991px){
+    .customer-star-rating{
+        left: 55rem;
+    }
+}
+
+@media (min-width: 715px) and (max-width: 760px){
+    .customer-star-rating{
+        left: 55rem;
+    }
+}
+
+/* ################################ cart and buttons style ####################### */
+
+.cart{
+    border: 2px solid #fc9967;
+    background: #f3e6dd;
+    height: fit-content;
+}
+
+button{
+    display: block;
+    width: 95%;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: 2px solid #fc9967;
+    font-weight: 600;
+}
+
+.buy-btn{
+    background: orange;
+    color: white;
+}
+
+.cart-btn{
+    color: orange;
+}
+
+.line-div{
+    margin: 2rem auto;
+    width: 50%;
+    color: white;
+    height: 2px;
+    background: #f5ac87;
+}
+
+.p{
+    padding: 0 1rem;
+}
+
+.wishlist-btn{
+    background: #F5C4AC;
+    color: white;
+    font-weight: 500;
+    border: 2px solid #F5C4AC;
+}
+
+.cart-text{
+    margin-top: 2rem;
+}
+
+.pin-code{
+    display: block;
+    width: 95%;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    background: #f3e6dd;
+    border-bottom: 2px solid orange;
+}
+
+.pin-code::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: gray;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .code{
+      font-weight: 500;
+      margin-top: 1.5rem;
+  }
+
+  .coupon{
+    display: block;
+    width: 95%;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    background: #f3e6dd;
+    border: 2px solid #fc9967;
+  }
+
+  .code-coupon{
+      font-weight: 700;
+      display: inline-block;
+  }
+
+  .code-line{
+      color: gray;
+      margin-bottom: 0.5rem;
+  }
+
+  .apply-btn{
+      display: inline-block;
+      position: relative;
+      left: 15rem;
+      color: #fc9967;
+      text-decoration: underline;
+      font-weight: 500;
+  }
+
+  .section-line{
+      height: 2px;
+      width: 100%;
+      background: #f5ac87;
+      margin: 1rem 0;
+  }
+
+  .special-offers{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .offer-section ul li{
+      margin-top: 1rem;
+      font-size: 13px;
+  }
+
+  .offer-section a{
+      color: #fc9967;
+      cursor: pointer;
+  }
+
+  .section-line-2{
+    height: 2px;
+    width: 100%;
+    background: rgb(35, 20, 87);
+    margin: 1rem 0;
+}
+
+/* ############################# SImilar Products styling #################################################*/
+
+.box-img{
+    background: transparent linear-gradient(180deg, #FEF7F3 0%, #F5C4AC 100%) 0% 0% no-repeat padding-box;
+    margin-bottom: 0.5rem;
+}
+
+.single-box{
+    margin: 2rem 0;
+}
+
+.box-img::before{
+    content: '';
+    position: absolute;
+    left: 223px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background: transparent url('../imgs/solutions/bag.png') 0% 0% no-repeat padding-box; */
+    z-index: 10;
+    cursor: pointer;
+}
+
+.box-detail p{
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.box-price p{
+    color: grey;
+    font-size: small;
+    text-align: center;
+}
+
+.box-btn{
+    color: #F8A26E;
+    border: 2px solid #F8A26E;
+    width: 250px;
+    padding: 1 4rem;
+    text-align: center;
+}
+
+.box-btn:hover{
+    background-color: #F8A26E;
+    color: black;
+    border: 2px solid black;
+}
+
+.bottom-marg{
+    margin-bottom: 8rem;
+}
+

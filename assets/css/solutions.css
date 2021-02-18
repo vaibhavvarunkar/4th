@@ -1,0 +1,100 @@
+.solution-header h3{
+    text-align: center;
+font: normal normal normal 42px/58px DM Serif Display;
+letter-spacing: 0px;
+color: #26272B;
+font-weight: bold;
+}
+
+.product-img{
+    background: transparent linear-gradient(180deg, #FEF7F3 0%, #F5C4AC 100%) 0% 0% no-repeat padding-box;
+}
+
+.product-img::before{
+    content: '';
+    position: absolute;
+    left: 223px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent url('../imgs/solutions/bag.png') 0% 0% no-repeat padding-box;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.product-detail{
+    text-align: center;
+    padding: 10px;
+}
+.product-detail h3{
+    font: normal normal normal 20px/28px DM Serif Display;
+letter-spacing: 1px;
+color: #26272B;
+text-shadow: 6px 6px 20px #00000029;
+font-weight: bold;
+margin-top: 8px;
+}
+
+.product-detail p{
+    font: normal normal normal 14px/30px Poppins;
+letter-spacing: 0px;
+color: #26272B;
+opacity: 0.5;
+}
+
+.product-detail select{
+    text-decoration: underline;
+font: normal normal normal 14px/24px Poppins;
+letter-spacing: 0px;
+color: #26272B;
+border: 0;
+}
+
+.product-detail a{
+    background: #789F8C 0% 0% no-repeat padding-box;
+    font: normal normal normal 14px/24px Poppins;
+letter-spacing: 1.4px;
+color: #FFFFFF;
+text-shadow: 0px 3px 6px #00000029;
+padding: 5px 10px;
+}
+
+.grand-total{
+    border-top: 2px solid #F5C4AC;
+    border-bottom: 2px solid #F5C4AC;
+    text-align: center;
+}
+.grand-total p{
+    font: normal normal normal 14px/30px Poppins;
+letter-spacing: 0px;
+margin: 10px 0 10px;
+}
+
+.grand-total p span{font: normal normal 600 20px/30px Poppins;
+    letter-spacing: 0px;}
+.order p{
+    text-align: center;
+    font: normal normal normal 14px/24px Poppins;
+    letter-spacing: 0px;
+    color: #26272B;
+}
+.order{
+    text-align: center;
+}
+.order-link{
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    border: 2px solid #F8A26E;
+    width: 370px;
+    /* height: 60px; */
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: inherit;
+    text-decoration: none;
+    font: normal normal 600 16px/24px Poppins;
+    letter-spacing: 0.8px;
+    color: #F8A26E;
+}
+.black-bd{
+    border: 2px solid #000;
+    color:  #000;
+}

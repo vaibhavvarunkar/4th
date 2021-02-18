@@ -1,0 +1,8 @@
+.product-detail a{
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    border: 2px solid #F8A26E;
+    font: normal normal 600 16px/20px Poppins;
+    letter-spacing: 0.8px;
+    color: #F8A26E;
+    padding: 4px 30px;
+}

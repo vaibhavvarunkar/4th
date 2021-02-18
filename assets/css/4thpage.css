@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: Helvetica, sans-serif; */
+}
+.sub-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-nav .center-element {
+   margin: 0 3rem;
+}
+
+.sub-nav a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+h3{
+    display: inline;
+    font-weight: 500;
+}
+
+
+h3:hover{
+    color: #F8A26E;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+h3:hover:before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    background: #F8A26E;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    left:calc(50% - 8px);
+}
+
+.box-img{
+    background: transparent linear-gradient(180deg, #FEF7F3 0%, #F5C4AC 100%) 0% 0% no-repeat padding-box;
+    margin-bottom: 0.5rem;
+}
+
+.single-box{
+    margin: 2rem 0;
+}
+
+.box-img::before{
+    content: '';
+    position: absolute;
+    left: 223px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background: transparent url('../imgs/solutions/bag.png') 0% 0% no-repeat padding-box; */
+    z-index: 10;
+    cursor: pointer;
+}
+
+.box-detail p{
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.box-price p{
+    color: grey;
+    font-size: small;
+    text-align: center;
+}
+
+.box-btn{
+    color: #F8A26E;
+    border: 2px solid #F8A26E;
+    width: 250px;
+    padding: 1 4rem;
+    text-align: center;
+}
+
+.box-btn:hover{
+    background-color: #F8A26E;
+    color: black;
+    border: 2px solid black;
+}

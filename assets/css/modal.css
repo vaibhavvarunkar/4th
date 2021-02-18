@@ -1,0 +1,54 @@
+.modal-form{
+    background: #FEF7F3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #00000029;
+    border-radius: 30px;
+}
+.modal-title {
+    text-align: center;
+    font: normal normal normal 24px/33px DM Serif Display;
+letter-spacing: 1.2px;
+color: #26272B;
+font-weight: bold;
+}
+.modal-header {
+    border-bottom:0;
+}
+.questions p{
+    font: normal normal normal 16px/24px Poppins;
+letter-spacing: 0px;
+color: #26272B;
+}
+.answers p{
+    text-align: left;
+font: normal normal 600 16px/24px Poppins;
+letter-spacing: 0px;
+color: #F8A26E;
+}
+.paragraph h3{
+    font: normal normal 600 16px/24px Poppins;
+letter-spacing: 0px;
+color: #26272B;}
+.paragraph p{
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #26272B;
+
+}
+.paragraph{
+    border-left: 1px solid #00000029;
+    padding: 5px 20px;
+}
+@media (min-width: 992px){
+.modal-lg {
+    width: auto;
+}
+}
+.form-submission{
+    padding: 0px 20px;
+}
+.no-bgc{
+    background-color: transparent;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+border: 2px solid #F8A26E;
+color: #F8A26E;
+}

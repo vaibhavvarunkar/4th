@@ -1,0 +1,370 @@
+.bg-non{
+    background-image: none;
+}
+.hero-text {
+    top: 89px;
+    /* left: 63px; */
+    position: inherit;
+    width: 100%;
+}
+.hero-text h3{
+    text-align: center;
+    font: normal normal normal 24px/33px DM Serif Display;
+    letter-spacing: 1.2px;
+    color: #26272B;
+    padding: 0px 181px;
+    font-weight: 900;
+}
+@media screen and (min-width: 768px){
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+     height:fit-content;
+}
+}
+
+.htwinner::after {
+    content: "";
+    position: absolute;
+    top: 105px;
+    left: 1101px;
+    width: 291px;
+    height: 258px;
+    background-image: url(../imgs/home/Group3.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transform: scale(.7);
+}
+
+.htw::after {
+    content: "";
+    position: absolute;
+    top: 117px;
+    left: 1137px;
+    width: 235px;
+    height: 374px;
+    background-image: url(../imgs/home/Path19.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transform: scale(.8);
+    float: left;
+}
+.htwinner::before {
+    content: "";
+    position: absolute;
+    width: 243px;
+    height: 480px;
+    margin-left: -215px;
+     margin-top: 0px;
+    top: -11px;
+    background-image: url(../imgs/build/Group1544.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transform: scale(.7);
+    z-index: 1;
+}
+.htw::before {
+    display: none;
+}
+
+.our-blog {
+    padding:0;
+}
+.filterform {
+    background-color: #fceadf;
+    margin: 40px auto;
+    padding: 20px 10px;
+    width: 770px;
+    min-height: 193px;
+    background: #FCEADF 0% 0% no-repeat padding-box;
+}
+
+.filterform .text-center h3 span{
+    text-align: center;
+font: normal normal normal 24px/33px DM Serif Display;
+letter-spacing: 1.2px;
+color: #26272B;
+font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+    width: 100%;
+    min-height: 80px;
+    padding: 5px 0px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color:transparent;
+    background-image: none;
+    border: 0;
+    border-radius:0;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+margin-left: auto;
+margin-right: auto;
+}
+
+.custom-control{
+    width: inherit;
+    float: left;
+    border: 2px solid var(--unnamed-color-26272b);
+background: #F5C4AC00 0% 0% no-repeat padding-box;
+border: 2px solid #26272B;
+/* padding: 15px; */
+margin: 0px 15px;
+display: inline-flex;
+}
+.custom-control label{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    font: normal normal 600 16px/30px Poppins;
+    letter-spacing: 0.8px;
+  
+    text-shadow: 0px 2px 6px #00000029;
+}
+.custom-control label span{
+    float: right;
+} 
+.custom-checkbox input[type=radio]{
+    display: none;
+}
+.grid-checkbox input[type=checkbox] {
+    display: none;
+}
+.custom-checkbox input[type="radio"]:checked+label {
+    color: #FEF7F3;
+    background: #F8A26E 0% 0% no-repeat padding-box;
+  }
+  .grid-checkbox input[type=checkbox]:checked+label {
+    color: #FEF7F3;
+    background: #F8A26E 0% 0% no-repeat padding-box;
+  }
+
+
+
+.strands-50::before,.strands-150::before,.strands-100::before{
+  padding-top: 10px;
+    position: absolute;
+}
+.strands-50::before{
+    content: "Less than 50";
+}
+.strands-150::before{
+content: "50-100";
+}
+.strands-100::before{
+    content: "More than 100";
+}
+  .think-hair::before{
+      content: "Think to Coarse";
+      width: 80px;
+      position: absolute;
+      line-height: normal;
+  }
+  .medium-hair::before{
+    content: "Medium";
+    padding-top: 10px;
+    position: absolute;
+  }
+  .thin-hair::before{
+    content: "Thin/Fine ";
+    padding-top: 10px;
+    position: absolute;
+  }
+  .short::before{
+    content: "Short";
+    padding-top: 10px;
+    position: absolute; 
+  }
+  .long::before{
+    content: "Long";
+    padding-top: 10px;
+    position: absolute; 
+  }
+  .type-hair::before{
+    content: "Hair Care";
+    padding-top: 10px;
+    position: absolute;
+  }
+
+  .type-skin::before{
+    content: "Skin Care";
+    padding-top: 10px;
+    position: absolute;
+  }
+
+  .female::before{
+    content: "Female";
+    padding-top: 10px;
+    position: absolute;
+  }
+  .male::before{
+    content: "Male";
+    padding-top: 10px;
+    position: absolute;
+  }
+
+  .oily::before{
+    content: "Oily";
+    padding-top: 10px;
+    position: absolute;
+  }
+  .dry::before{
+    content: "Dry";
+    padding-top: 10px;
+    position: absolute;
+  }
+
+  .grid-form{
+    width: fit-content;
+}
+.group-form{
+    display: flex;
+    flex-direction: column;
+}
+.group-form input{
+    
+    width: 510px;
+    /* height: 50px; */
+    border: 2px solid var(--unnamed-color-26272b);
+    background: #F5C4AC00 0% 0% no-repeat padding-box;
+    border: 2px solid #26272B;
+    margin: 5px auto;
+    padding: 12px;
+
+}
+.form-checkbox{
+    margin: 0px auto;
+}
+.submit-form{
+    width: 510px;
+    margin-bottom: 35px;
+}
+.form-age{
+    padding: 40px;
+}
+/* .flaking{  grid-column: 2 / span 2;
+    grid-row: 1;}
+.hairfall{  grid-column: 4;
+    grid-row: 1;}
+.anti{ grid-column: 2 / span 1;
+    grid-row: 2;}
+.greying{ grid-column: 3 / span 1;
+    grid-row: 2;}
+.deep{grid-column: 2 / span 2;
+    grid-row: 3}
+.grid-form{
+    grid-gap: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-areas:
+    'none none flaking flaking flaking hairfall'
+    'none none none anti greying greying'
+    'deep deep deep deep deep deep'; */
+/* }
+.grid-form > div {
+    text-align: center;
+  }
+
+.grid-filter{
+    height: 350px;
+} */ 
+.dry-skin::before{content: "Dry like a dessert";   padding-top: 10px;
+    position: absolute;}
+    .shiny::before{content: "Oil & shiny everywhere";   padding-top: 10px;
+        position: absolute;}
+        .t-zone::before{content: "Oily T-zone";   padding-top: 10px;
+            position: absolute;}
+            .normal-skin::before{content: "All is Well Normal";   padding-top: 10px;
+                position: absolute;}
+.sensitive label{
+    text-align: center;
+    padding: 20px;
+}
+.rashes::before{
+    content: "Get rashes/redness";   
+    padding-top: 10px;
+    position: absolute;  
+}
+.itchy::before{
+
+    content: "Gets Dried & Little Itchy";   
+    padding-top: 10px;
+    position: absolute;  
+}
+.acne::before{
+    content: "Acne/Pimples/Bumps";   
+    padding-top: 10px;
+    position: absolute;  
+}.blackheads::before{
+    content: "Clogged Pores/Blackheads";   
+    width: 80px;
+    position: absolute;
+    line-height: normal;  
+}
+.dark-spots::before{
+    content: "Hyperpigmentation/ Dark Spots/Uneven Skin";
+    width: 20%;
+    position: absolute;
+    line-height: normal;
+}
+.brightening::before{
+    content: "Brightening";   
+    padding-top: 10px;
+    position: absolute;  
+}
+.wrinkles::before{
+    content: "Wrinkles/Dark circles";   
+    padding-top: 10px;
+    position: absolute;  
+}
+.hydration::before{
+    content: "Hydration";   
+    padding-top: 10px;
+    position: absolute;  
+}
+.puss::before{
+    content: "A bump with Puss Formation";   
+    width: 11%;
+    position: absolute;
+    line-height: normal;  
+}.cluster::before{
+    content: "A cluster of bump with no puss";   
+    width: 12%;
+    position: absolute;
+    line-height: normal;  
+}
+.scares::before{
+    content: "Pits/Scares";   
+    padding-top: 10px;
+    position: absolute;  
+}
+.rid-marks::before{
+    content: "To get rid of Acne Marks";   
+    width: 11%;
+    position: absolute;
+    line-height: normal;  
+}
+.rid-pimples::before{
+    content: "To get rid of pimples /appearance";   
+    width: 15%;
+    position: absolute;
+    line-height: normal;  
+}
+.patches label{
+    width: 215px;
+height: 60px;
+text-align: center;
+}
+.skin-care{
+    display: none;
+}
